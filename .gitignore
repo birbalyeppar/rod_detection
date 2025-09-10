@@ -206,4 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 rod_venv
+temp_images
+temp_videos
+output_data
 
