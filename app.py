@@ -44,7 +44,7 @@ conf = st.sidebar.slider("Confidence threshold", 0.05, 0.95, 0.25, 0.01)
 iou = st.sidebar.slider("IoU threshold (NMS)", 0.1, 0.95, 0.45, 0.01)
 max_det = st.sidebar.slider("Max detections", 10, 1000, 300, 10)
 agnostic = st.sidebar.checkbox("Agnostic NMS", value=False)
-device = st.sidebar.selectbox("Device", options=["auto", "cpu", "cuda:0"], index=0)
+device = st.sidebar.selectbox("Device", options=["auto", "cpu", "cuda"], index=0)
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Run Mode")
